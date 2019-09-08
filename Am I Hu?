@@ -10,8 +10,6 @@ namespace Rextester
     {
         public static void Main(string[] args)
         {
-            //Your code goes here
-            //Console.WriteLine(CheckPair("122"));
             Console.WriteLine(CheckHu("12344566778888"));
             Console.WriteLine("You are now Tinging: " + CheckTingCards("1235667"));    
         }
