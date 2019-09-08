@@ -14,8 +14,7 @@ namespace Rextester
             //Console.WriteLine(CheckPair("122"));
             Console.WriteLine(CheckHu("11122233444567"));
         }
-        
-        
+       
         private static bool CheckHu(string str) {
             if(str.Length < 5) return false;
             
@@ -35,6 +34,7 @@ namespace Rextester
             }
             return false;
         }
+        
         private static bool CheckMultiplePairs(Dictionary<char, int> dic) {
             int currentAmt = 0;
             foreach(var item in dic) currentAmt += item.Value;
