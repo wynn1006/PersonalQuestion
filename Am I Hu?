@@ -55,7 +55,7 @@ namespace Rextester
                 char c1 = (char) (c + 1);
                 char c2 = (char) (c + 2);
                 if(!dic.ContainsKey(c) || !dic.ContainsKey(c1) || !dic.ContainsKey(c2)) continue;
-                if(dic[c] >= 1 && dic[c2] >= 1 && dic[c2] >= 1) {
+                if(dic[c] >= 1 && dic[c1] >= 1 && dic[c2] >= 1) {
                     dic[c]--;
                     dic[c1]--;
                     dic[c2]--;
